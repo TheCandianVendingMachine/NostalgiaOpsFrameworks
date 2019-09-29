@@ -1,0 +1,1887 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters_e",
+		"cacharacters2",
+		"ace_sys_wounds",
+		"ace_sys_repair",
+		"ace_sys_tracking",
+		"acex_veh_gmv",
+		"ca_air2_su25",
+		"chernarus",
+		"ace_sys_viewblock",
+		"ace_sys_vehicledamage"
+	};
+	addOnsAuto[]=
+	{
+		"ace_sys_wounds",
+		"ace_sys_vehicledamage",
+		"ace_sys_repair",
+		"ace_sys_tracking",
+		"cacharacters2",
+		"ace_sys_viewblock",
+		"chernarus"
+	};
+	randomSeed=4656359;
+	class Intel
+	{
+		briefingDescription="Based on the Core framework by Dylan Plecki";
+		startWeather=0.39999998;
+		forecastWeather=0.25;
+		year=2008;
+		month=3;
+		hour=10;
+		minute=0;
+	};
+	class Groups
+	{
+		items=26;
+		class Item0
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={365.30048,0.27061331,533.92487};
+					id=0;
+					side="LOGIC";
+					vehicle="ACE_Wounds_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={361.25507,0.29283765,548.65631};
+					id=140;
+					side="LOGIC";
+					vehicle="ACE_Vehicledamage_Enable_Cookoff";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={365.45673,0.03479813,518.37799};
+					id=2;
+					side="LOGIC";
+					vehicle="ace_sys_repair_tyres";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item2
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={348.90692,0.14531712,533.95416};
+					id=1;
+					side="LOGIC";
+					vehicle="ACE_FBCB2_OFF_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item3
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={735.8313,0.26001552,620.64795};
+					id=3;
+					side="CIV";
+					vehicle="Citizen1";
+					player="PLAY CDG";
+					forceHeadlessClient=1;
+					leader=1;
+					skill=0.2;
+					text="headless_client";
+					init="this setCaptive true; this allowDamage false; hideObject this; this setVariable [""ace_w_allow_dam"",false];";
+					description="Headless Client";
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={463.52655,0.20841475,529.19147};
+					id=4;
+					side="WEST";
+					vehicle="USMC_Soldier_SL";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""ASL"", ""MAIN"", ""usmc_sl"", ""hq"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha Squad Leader";
+				};
+				class Item1
+				{
+					position[]={467.25897,0.21937649,526.74518};
+					id=5;
+					side="WEST";
+					vehicle="USMC_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""AM"", ""RED"", ""usmc_medic"", ""medic"", ""ColorRed"", 0.75, true] call fnc_initializeUnit;";
+					description="Alpha Corpsman";
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={461.83417,0.39147946,520.23834};
+					id=6;
+					side="WEST";
+					vehicle="USMC_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""A1"", ""GREEN"", ""usmc_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={459.51776,0.44319409,516.69635};
+					id=7;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A1"", ""RED"", ""usmc_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={464.66571,0.4159725,516.5694};
+					id=8;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A1"", ""RED"", ""usmc_aar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={470.45721,0.33419067,515.73151};
+					id=9;
+					side="WEST";
+					vehicle="USMC_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A1"", ""GREEN"", ""usmc_rat"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Rifleman AT";
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={462.05194,0.37068301,507.46002};
+					id=10;
+					side="WEST";
+					vehicle="USMC_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""A2"", ""BLUE"", ""usmc_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={459.73553,0.26444578,503.91705};
+					id=11;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A2"", ""YELLOW"", ""usmc_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={464.88348,0.34810647,503.79108};
+					id=12;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A2"", ""YELLOW"", ""usmc_aar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={470.67499,0.41921949,502.95221};
+					id=13;
+					side="WEST";
+					vehicle="USMC_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A2"", ""BLUE"", ""usmc_rat"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Rifleman AT";
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={480.39081,0.43321794,528.42975};
+					id=14;
+					side="WEST";
+					vehicle="USMC_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""BSL"", ""MAIN"", ""usmc_sl"", ""hq"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo Squad Leader";
+				};
+				class Item1
+				{
+					position[]={484.12323,0.44331348,525.98346};
+					id=15;
+					side="WEST";
+					vehicle="USMC_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""BM"", ""RED"", ""usmc_medic"", ""medic"", ""ColorBlue"", 0.75, true] call fnc_initializeUnit;";
+					description="Bravo Corpsman";
+				};
+			};
+		};
+		class Item8
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={478.69843,0.25157055,519.47662};
+					id=16;
+					side="WEST";
+					vehicle="USMC_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""B1"", ""GREEN"", ""usmc_tl"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={476.38202,0.24096009,515.93463};
+					id=17;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B1"", ""RED"", ""usmc_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={481.52997,0.23502313,515.80768};
+					id=18;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B1"", ""RED"", ""usmc_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={487.32147,0.29108781,514.96979};
+					id=19;
+					side="WEST";
+					vehicle="USMC_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B1"", ""GREEN"", ""usmc_rat"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Rifleman AT";
+				};
+			};
+		};
+		class Item9
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={478.9162,0.33607697,506.6983};
+					id=20;
+					side="WEST";
+					vehicle="USMC_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""B2"", ""BLUE"", ""usmc_tl"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={476.59979,0.42155138,503.15533};
+					id=21;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B2"", ""YELLOW"", ""usmc_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={481.74774,0.33918756,503.02936};
+					id=22;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B2"", ""YELLOW"", ""usmc_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={487.53925,0.22876671,502.19049};
+					id=23;
+					side="WEST";
+					vehicle="USMC_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B2"", ""BLUE"", ""usmc_rat"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 2 Rifleman AT";
+				};
+			};
+		};
+		class Item10
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={376.75214,0.11400273,548.09674};
+					id=25;
+					side="LOGIC";
+					vehicle="ACE_Viewblock_EnableAIGrassVB_Mod";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item11
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={384.08368,0.062538303,531.79401};
+					id=24;
+					side="LOGIC";
+					vehicle="ACE_Wounds_FullHeal";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item12
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={429.01776,0.15745246,429.75299};
+					id=26;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""ASL"", ""MAIN"", ""ru_sl"", ""hq"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha Squad Leader";
+				};
+				class Item1
+				{
+					position[]={443.09198,0.28929514,428.60651};
+					id=27;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""AM"", ""MAIN"", ""ru_medic"", ""medic"", ""ColorRed"", 0.75, true] call fnc_initializeUnit;";
+					description="Alpha Medic";
+				};
+			};
+		};
+		class Item13
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={430.23309,0.098500088,423.23737};
+					id=28;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""A1"", ""GREEN"", ""ru_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={429.29755,0.19354683,416.05768};
+					id=29;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A1"", ""RED"", ""ru_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={435.53534,0.078505024,415.27838};
+					id=30;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A1"", ""RED"", ""ru_aar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={440.99335,0.038784586,414.96686};
+					id=31;
+					side="EAST";
+					vehicle="RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A1"", ""GREEN"", ""ru_at"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Rifleman AT";
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={428.94257,0.23914453,404.62799};
+					id=32;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""A2"", ""yellow"", ""ru_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={428.00702,0.138611,400.18463};
+					id=33;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A2"", ""BLUE"", ""ru_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={434.24432,0.21723023,399.40436};
+					id=34;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A2"", ""blue"", ""ru_aar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={439.70282,0.23127115,399.09283};
+					id=35;
+					side="EAST";
+					vehicle="RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A2"", ""yellow"", ""ru_at"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Rifleman AT";
+				};
+			};
+		};
+		class Item15
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={469.06366,0.036211081,425.19049};
+					id=36;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""BSL"", ""MAIN"", ""ru_sl"", ""hq"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo Squad Leader";
+				};
+				class Item1
+				{
+					position[]={483.13788,0.24230136,424.04401};
+					id=37;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""BM"", ""MAIN"", ""ru_medic"", ""medic"", ""ColorBlue"", 0.75, true] call fnc_initializeUnit;";
+					description="Bravo Medic";
+				};
+			};
+		};
+		class Item16
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={470.27899,0.020112082,418.67487};
+					id=38;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""B1"", ""GREEN"", ""ru_tl"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={469.34344,0.15278015,411.49518};
+					id=39;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B1"", ""RED"", ""ru_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={475.58124,0.069938608,410.71588};
+					id=40;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B1"", ""RED"", ""ru_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={481.03925,0.05243288,410.40436};
+					id=41;
+					side="EAST";
+					vehicle="RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B1"", ""GREEN"", ""ru_at"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Rifleman AT";
+				};
+			};
+		};
+		class Item17
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={468.98846,0.23859307,400.06549};
+					id=42;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""B2"", ""yellow"", ""ru_tl"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={468.05292,0.15320425,395.62213};
+					id=43;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B2"", ""BLUE"", ""ru_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={474.29022,0.27117008,394.84186};
+					id=44;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B2"", ""blue"", ""ru_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={479.74872,0.31945401,394.53033};
+					id=45;
+					side="EAST";
+					vehicle="RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B2"", ""yellow"", ""ru_at"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 2 Rifleman AT";
+				};
+			};
+		};
+		class Item18
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={500.81464,0.08242099,423.30768};
+					id=46;
+					side="EAST";
+					vehicle="RU_Soldier_MG";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""MMG1"", ""main"", ""ru_mmg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MMG 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={495.55634,0.29374805,415.43854};
+					id=47;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""MMG1"", ""main"", ""ru_ammg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MMG 1 Spotter";
+				};
+				class Item2
+				{
+					position[]={506.94843,0.15758799,415.20612};
+					id=48;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""MMG1"", ""main"", ""ru_mmgab"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MMG 1 Ammo Bearer";
+				};
+			};
+		};
+		class Item19
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={500.33612,0.26109016,524.23151};
+					id=49;
+					side="WEST";
+					vehicle="USMC_Soldier_MG";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""MMG1"", ""main"", ""usmc_mmg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MMG 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={497.71112,0.38183862,520.06549};
+					id=50;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""MMG1"", ""main"", ""usmc_ammg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MMG 1 Spotter";
+				};
+				class Item2
+				{
+					position[]={504.03192,0.24570781,520.35162};
+					id=51;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""MMG1"", ""main"", ""usmc_mmgab"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MMG 1 Ammo Bearer";
+				};
+			};
+		};
+		class Item20
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={525.03528,0.34503108,423.99323};
+					id=52;
+					side="EAST";
+					vehicle="RU_Soldier_AT";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""MAT1"", ""main"", ""ru_mat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MAT 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={519.77698,0.28911808,416.12408};
+					id=53;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""MAT1"", ""main"", ""ru_matspot"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MAT 1 Spotter";
+				};
+				class Item2
+				{
+					position[]={531.16907,0.41463986,415.89166};
+					id=54;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""MAT1"", ""main"", ""ru_matab"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MAT 1 Ammo Bearer";
+				};
+			};
+		};
+		class Item21
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={467.7785,0.096164733,385.77936};
+					id=55;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""vic 1"", ""main"", ""ru_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="VIC 1 Commander";
+				};
+				class Item1
+				{
+					position[]={462.24579,0.29496631,378.99921};
+					id=56;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""vic 1"", ""main"", ""ru_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="VIC 1 Gunner";
+				};
+				class Item2
+				{
+					position[]={472.63104,0.16305654,378.87225};
+					id=57;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""vic 1"", ""main"", ""ru_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="VIC 1 Driver";
+				};
+			};
+		};
+		class Item22
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={513.59875,0.23431273,524.1651};
+					id=58;
+					side="WEST";
+					vehicle="USMC_Soldier_AT";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""MAT1"", ""main"", ""usmc_mat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MAT 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={510.97424,0.15685503,519.99908};
+					id=59;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""MAT1"", ""main"", ""usmc_matspot"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MAT 1 Spotter";
+				};
+				class Item2
+				{
+					position[]={517.29504,0.19945553,520.28424};
+					id=60;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""MAT1"", ""main"", ""usmc_matab"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MAT 1 Ammo Bearer";
+				};
+			};
+		};
+		class Item23
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={501.53827,0.30380845,505.91705};
+					id=61;
+					side="WEST";
+					vehicle="USMC_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""vic1"", ""main"", ""usmc_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="VIC 1 Commander";
+				};
+				class Item1
+				{
+					position[]={496.80927,0.21480866,505.04791};
+					id=62;
+					side="WEST";
+					vehicle="USMC_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""vic1"", ""main"", ""usmc_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="VIC 1 Gunner";
+				};
+				class Item2
+				{
+					position[]={506.74872,0.31044999,503.40631};
+					id=63;
+					side="WEST";
+					vehicle="USMC_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""vic1"", ""main"", ""usmc_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="VIC 1 Driver";
+				};
+			};
+		};
+		class Item24
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=38;
+				class Item0
+				{
+					position[]={539.71204,0.23714936,512.80963};
+					id=64;
+					side="WEST";
+					vehicle="USMC_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_sl""] call fnc_initializeUnit;";
+					description="JIP Squad Leader";
+				};
+				class Item1
+				{
+					position[]={539.69446,0.24531938,511.55182};
+					id=65;
+					side="WEST";
+					vehicle="USMC_Soldier_SL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_sl""] call fnc_initializeUnit;";
+					description="JIP Squad Leader";
+				};
+				class Item2
+				{
+					position[]={542.12512,0.22753859,510.48737};
+					id=68;
+					side="WEST";
+					vehicle="USMC_Soldier_TL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""usmc_tl""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item3
+				{
+					position[]={541.8634,0.20999065,512.40924};
+					id=66;
+					side="WEST";
+					vehicle="USMC_Soldier_TL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""usmc_tl""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item4
+				{
+					position[]={542.03772,0.22307816,511.0694};
+					id=67;
+					side="WEST";
+					vehicle="USMC_Soldier_TL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""usmc_tl""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item5
+				{
+					position[]={542.12512,0.23549435,509.3819};
+					id=69;
+					side="WEST";
+					vehicle="USMC_Soldier_TL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""usmc_tl""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={544.1637,0.1688973,512.31549};
+					id=70;
+					side="WEST";
+					vehicle="USMC_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""usmc_medic""] call fnc_initializeUnit;";
+					description="JIP Corpsman";
+				};
+				class Item7
+				{
+					position[]={544.1637,0.19226509,510.87408};
+					id=71;
+					side="WEST";
+					vehicle="USMC_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""usmc_medic""] call fnc_initializeUnit;";
+					description="JIP Corpsman";
+				};
+				class Item8
+				{
+					position[]={544.49622,0.20457035,509.61725};
+					id=72;
+					side="WEST";
+					vehicle="USMC_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""usmc_medic""] call fnc_initializeUnit;";
+					description="JIP Corpsman";
+				};
+				class Item9
+				{
+					position[]={544.57043,0.22048594,508.13776};
+					id=73;
+					side="WEST";
+					vehicle="USMC_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""usmc_medic""] call fnc_initializeUnit;";
+					description="JIP Corpsman";
+				};
+				class Item10
+				{
+					position[]={545.79602,0.13936913,512.10455};
+					id=74;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_ar""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item11
+				{
+					position[]={545.85413,0.15300514,511.29108};
+					id=75;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_ar""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item12
+				{
+					position[]={545.8927,0.16638425,510.49518};
+					id=76;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_ar""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item13
+				{
+					position[]={545.95129,0.1755363,509.89362};
+					id=77;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_ar""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item14
+				{
+					position[]={547.60071,0.15007001,509.54401};
+					id=81;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_aar""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item15
+				{
+					position[]={547.60071,0.13485444,510.35944};
+					id=80;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_aar""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item16
+				{
+					position[]={547.46497,0.12126835,511.23151};
+					id=79;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_aar""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item17
+				{
+					position[]={547.36829,0.10571184,512.18073};
+					id=78;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_aar""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item18
+				{
+					position[]={549.02747,0.073485002,512.21002};
+					id=82;
+					side="WEST";
+					vehicle="USMC_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_rat""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item19
+				{
+					position[]={548.94934,0.090143122,511.31744};
+					id=83;
+					side="WEST";
+					vehicle="USMC_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_rat""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item20
+				{
+					position[]={548.94934,0.10788295,510.34772};
+					id=84;
+					side="WEST";
+					vehicle="USMC_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_rat""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item21
+				{
+					position[]={549.08508,0.11320692,509.92096};
+					id=85;
+					side="WEST";
+					vehicle="USMC_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""usmc_rat""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item22
+				{
+					position[]={550.22302,0.064729623,511.45612};
+					id=89;
+					side="WEST";
+					vehicle="USMC_Soldier_MG";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""usmc_mmg""] call fnc_initializeUnit;";
+					description="JIP MMG Gunner";
+				};
+				class Item23
+				{
+					position[]={550.22937,0.05331786,512.21783};
+					id=86;
+					side="WEST";
+					vehicle="USMC_Soldier_MG";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""usmc_mmg""] call fnc_initializeUnit;";
+					description="JIP MMG Gunner";
+				};
+				class Item24
+				{
+					position[]={551.14978,0.039281517,512.29596};
+					id=87;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_ammg""] call fnc_initializeUnit;";
+					description="JIP MMG Spotter";
+				};
+				class Item25
+				{
+					position[]={551.25867,0.048804,511.42487};
+					id=90;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_ammg""] call fnc_initializeUnit;";
+					description="JIP MMG Spotter";
+				};
+				class Item26
+				{
+					position[]={552.47742,0.046032667,510.35065};
+					id=91;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_mmgab""] call fnc_initializeUnit;";
+					description="JIP MMG Ammo Bearer";
+				};
+				class Item27
+				{
+					position[]={552.61365,0.05719433,509.45709};
+					id=88;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_mmgab""] call fnc_initializeUnit;";
+					description="JIP MMG Ammo Bearer";
+				};
+				class Item28
+				{
+					position[]={554.66199,0.013939269,511.93854};
+					id=92;
+					side="WEST";
+					vehicle="USMC_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_mat""] call fnc_initializeUnit;";
+					description="JIP MAT Gunner";
+				};
+				class Item29
+				{
+					position[]={554.7782,0.016300738,511.12311};
+					id=95;
+					side="WEST";
+					vehicle="USMC_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_mat""] call fnc_initializeUnit;";
+					description="JIP MAT Gunner";
+				};
+				class Item30
+				{
+					position[]={555.52576,0.013017841,512.01862};
+					id=93;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_matspot""] call fnc_initializeUnit;";
+					description="JIP MAT Spotter";
+				};
+				class Item31
+				{
+					position[]={556.40027,0.014877543,512.01276};
+					id=97;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_matab""] call fnc_initializeUnit;";
+					description="JIP MAT Ammo Bearer";
+				};
+				class Item32
+				{
+					position[]={556.53601,0.013169467,511.2569};
+					id=94;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_matab""] call fnc_initializeUnit;";
+					description="JIP MAT Ammo Bearer";
+				};
+				class Item33
+				{
+					position[]={559.24158,0.025644533,510.78619};
+					id=99;
+					side="WEST";
+					vehicle="USMC_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_crew""] call fnc_initializeUnit;";
+					description="JIP VIC Crew";
+				};
+				class Item34
+				{
+					position[]={558.10046,0.019710481,511.21881};
+					id=101;
+					side="WEST";
+					vehicle="USMC_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_crew""] call fnc_initializeUnit;";
+					description="JIP VIC Crew";
+				};
+				class Item35
+				{
+					position[]={558.47498,0.027665153,511.81354};
+					id=98;
+					side="WEST";
+					vehicle="USMC_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_crew""] call fnc_initializeUnit;";
+					description="JIP VIC Crew";
+				};
+				class Item36
+				{
+					position[]={557.94568,0.015272684,510.50494};
+					id=100;
+					side="WEST";
+					vehicle="USMC_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_crew""] call fnc_initializeUnit;";
+					description="JIP VIC Crew";
+				};
+				class Item37
+				{
+					position[]={555.39001,0.019158982,510.01959};
+					azimut=-26.399315;
+					id=96;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""usmc_matspot""] call fnc_initializeUnit;";
+					description="JIP MAT Spotter";
+				};
+			};
+		};
+		class Item25
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=38;
+				class Item0
+				{
+					position[]={558.75037,0.425125,417.64948};
+					id=102;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""ru_sl""] call fnc_initializeUnit;";
+					description="JIP Squad Leader";
+				};
+				class Item1
+				{
+					position[]={559.01404,0.3925063,415.40729};
+					id=107;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""ru_sl""] call fnc_initializeUnit;";
+					description="JIP Squad Leader";
+				};
+				class Item2
+				{
+					position[]={560.49841,0.44005328,417.55377};
+					id=114;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""ru_medic""] call fnc_initializeUnit;";
+					description="JIP Medic";
+				};
+				class Item3
+				{
+					position[]={560.65759,0.41222879,415.20319};
+					id=115;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""ru_medic""] call fnc_initializeUnit;";
+					description="JIP Medic";
+				};
+				class Item4
+				{
+					position[]={560.73718,0.36379039,412.53326};
+					id=116;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""ru_medic""] call fnc_initializeUnit;";
+					description="JIP Medic";
+				};
+				class Item5
+				{
+					position[]={560.65759,0.30840543,410.02448};
+					id=117;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""ru_medic""] call fnc_initializeUnit;";
+					description="JIP Medic";
+				};
+				class Item6
+				{
+					position[]={562.61072,0.44569409,417.18854};
+					id=103;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""ru_tl""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item7
+				{
+					position[]={562.89001,0.43054044,414.91705};
+					id=118;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""ru_tl""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item8
+				{
+					position[]={562.84998,0.39907533,412.72467};
+					id=119;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""ru_tl""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item9
+				{
+					position[]={562.81042,0.35488239,410.49323};
+					id=120;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""MAIN"", ""ru_tl""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item10
+				{
+					position[]={564.81775,0.44002202,416.90924};
+					id=104;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_ar""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item11
+				{
+					position[]={564.96912,0.43800026,414.83307};
+					id=121;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_ar""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item12
+				{
+					position[]={565.17224,0.42183995,412.70612};
+					id=122;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_ar""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item13
+				{
+					position[]={565.32361,0.38054758,409.92096};
+					id=123;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_ar""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item14
+				{
+					position[]={567.48376,0.40468904,410.00006};
+					id=126;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_aar""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item15
+				{
+					position[]={567.63904,0.42842978,412.67682};
+					id=125;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_aar""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item16
+				{
+					position[]={567.44519,0.42854428,414.94635};
+					id=124;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_aar""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item17
+				{
+					position[]={567.36755,0.4110418,417.25299};
+					id=105;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_aar""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item18
+				{
+					position[]={570.31873,0.3589614,417.23541};
+					id=106;
+					side="EAST";
+					vehicle="RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_at""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item19
+				{
+					position[]={570.22595,0.39138359,415.17487};
+					id=127;
+					side="EAST";
+					vehicle="RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_at""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item20
+				{
+					position[]={570.54041,0.40866473,412.97272};
+					id=128;
+					side="EAST";
+					vehicle="RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_at""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item21
+				{
+					position[]={570.3158,0.41677898,411.35651};
+					id=129;
+					side="EAST";
+					vehicle="RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_at""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item22
+				{
+					position[]={574.61951,0.30672973,414.96198};
+					id=130;
+					side="EAST";
+					vehicle="RU_Soldier_MG";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_mmg""] call fnc_initializeUnit;";
+					description="JIP MMG Gunner";
+				};
+				class Item23
+				{
+					position[]={574.39539,0.2713055,417.34283};
+					id=108;
+					side="EAST";
+					vehicle="RU_Soldier_MG";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_mmg""] call fnc_initializeUnit;";
+					description="JIP MMG Gunner";
+				};
+				class Item24
+				{
+					position[]={578.52234,0.20378503,417.24518};
+					id=110;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""ru_mmgab""] call fnc_initializeUnit;";
+					description="JIP MMG Ammo Bearer";
+				};
+				class Item25
+				{
+					position[]={578.52234,0.22719456,414.86432};
+					id=131;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""ru_mmgab""] call fnc_initializeUnit;";
+					description="JIP MMG Ammo Bearer";
+				};
+				class Item26
+				{
+					position[]={582.17859,0.18249987,417.53424};
+					id=109;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""ru_ammg""] call fnc_initializeUnit;";
+					description="JIP MMG Spotter";
+				};
+				class Item27
+				{
+					position[]={582.35779,0.1766662,414.16608};
+					id=132;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""ru_ammg""] call fnc_initializeUnit;";
+					description="JIP MMG Spotter";
+				};
+				class Item28
+				{
+					position[]={587.53064,0.22917312,417.77838};
+					id=111;
+					side="EAST";
+					vehicle="RU_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""ru_mat""] call fnc_initializeUnit;";
+					description="JIP MAT Gunner";
+				};
+				class Item29
+				{
+					position[]={587.66541,0.18721557,415.62213};
+					id=133;
+					side="EAST";
+					vehicle="RU_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""ru_mat""] call fnc_initializeUnit;";
+					description="JIP MAT Gunner";
+				};
+				class Item30
+				{
+					position[]={592.6991,0.26138937,415.89362};
+					id=134;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""ru_matspot""] call fnc_initializeUnit;";
+					description="JIP MAT Spotter";
+				};
+				class Item31
+				{
+					position[]={592.56482,0.29979914,417.64557};
+					id=112;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""ru_matspot""] call fnc_initializeUnit;";
+					description="JIP MAT Spotter";
+				};
+				class Item32
+				{
+					position[]={596.17957,0.33761168,417.82233};
+					id=113;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""ru_matab""] call fnc_initializeUnit;";
+					description="JIP MAT Ammo Bearer";
+				};
+				class Item33
+				{
+					position[]={596.17957,0.28864735,414.99225};
+					id=135;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""main"", ""ru_matab""] call fnc_initializeUnit;";
+					description="JIP MAT Ammo Bearer";
+				};
+				class Item34
+				{
+					position[]={599.95691,0.33404458,417.85651};
+					id=136;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_crew""] call fnc_initializeUnit;";
+					description="JIP Crewman";
+				};
+				class Item35
+				{
+					position[]={599.99695,0.32748878,416.06451};
+					id=137;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_crew""] call fnc_initializeUnit;";
+					description="JIP Crewman";
+				};
+				class Item36
+				{
+					position[]={600.19617,0.31333941,414.50983};
+					id=138;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_crew""] call fnc_initializeUnit;";
+					description="JIP Crewman";
+				};
+				class Item37
+				{
+					position[]={600.35535,0.28730041,412.63776};
+					id=139;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""jip"", ""main"", ""ru_crew""] call fnc_initializeUnit;";
+					description="JIP Crewman";
+				};
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"utes",
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=1583210;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"utes",
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=15994081;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"utes",
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=1295552;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
