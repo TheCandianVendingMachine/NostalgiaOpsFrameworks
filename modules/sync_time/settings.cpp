@@ -4,7 +4,7 @@
 		1. Reference the 'params.cpp' file for information on month/day/hour/minute number conversions.
 */
 
-#define START_HOUR		2
+#define START_HOUR		12
 #define START_MINUTE	0
 #define START_DAY		10
 #define START_MONTH		3

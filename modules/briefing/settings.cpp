@@ -32,13 +32,12 @@ class briefings
 		west_situation = "I. Situation";
 		west_mission = "II. Mission";
 		west_execution = "III. Execution";
-		west_service_support = "IV. Service & Support";
-		west_command_signal = "V. Command & Signal";
-		mission_notes = "VI. Mission Notes";
 	};
 	class east
 	{
-		
+		east_situation = "I. Situation";
+		east_mission = "II. Mission";
+		east_execution = "III. Execution";
 	};
 	class resistance
 	{

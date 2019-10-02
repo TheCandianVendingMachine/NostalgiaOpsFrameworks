@@ -11,12 +11,13 @@ ADD_WEAPON("ACE_DAGR");
 ADD_WEAPON("ACRE_PRC148");
 
 /* Primary Magazine Slots */
-ADD_MAGAZINE("30Rnd_556x45_Stanag", 7);
-ADD_MAGAZINE("ACE_30Rnd_556x45_T_Stanag", 1);
+ADD_MAGAZINE("30Rnd_556x45_Stanag", 5);
+ADD_MAGAZINE("ACE_30Rnd_556x45_T_Stanag", 2);
 ADD_MAGAZINE("HandGrenade_West", 2);
 ADD_MAGAZINE("SmokeShell", 2);
 ADD_MAGAZINE("1Rnd_HE_M203", 4);
 ADD_MAGAZINE("1Rnd_Smoke_M203", 2);
+ADD_MAGAZINE("ACE_Battery_Rangefinder", 1);
 
 /* Secondary Magazine Slots */
 ADD_MAGAZINE("15Rnd_9x19_M9", 2);
