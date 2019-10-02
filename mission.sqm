@@ -134,7 +134,7 @@ class Mission
 					position[]={463.52655,0.20841475,529.19147};
 					id=4;
 					side="WEST";
-					vehicle="USMC_Soldier_SL";
+					vehicle="USMC_Soldier";
 					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
@@ -165,7 +165,7 @@ class Mission
 					position[]={461.83417,0.39147946,520.23834};
 					id=6;
 					side="WEST";
-					vehicle="USMC_Soldier_TL";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -177,7 +177,7 @@ class Mission
 					position[]={459.51776,0.44319409,516.69635};
 					id=7;
 					side="WEST";
-					vehicle="USMC_Soldier_AR";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""A1"", ""RED"", ""usmc_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
@@ -199,7 +199,7 @@ class Mission
 					position[]={470.45721,0.33419067,515.73151};
 					id=9;
 					side="WEST";
-					vehicle="USMC_Soldier_LAT";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""A1"", ""GREEN"", ""usmc_rat"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
@@ -218,7 +218,7 @@ class Mission
 					position[]={462.05194,0.37068301,507.46002};
 					id=10;
 					side="WEST";
-					vehicle="USMC_Soldier_TL";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -230,7 +230,7 @@ class Mission
 					position[]={459.73553,0.26444578,503.91705};
 					id=11;
 					side="WEST";
-					vehicle="USMC_Soldier_AR";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""A2"", ""YELLOW"", ""usmc_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
@@ -252,7 +252,7 @@ class Mission
 					position[]={470.67499,0.41921949,502.95221};
 					id=13;
 					side="WEST";
-					vehicle="USMC_Soldier_LAT";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""A2"", ""BLUE"", ""usmc_rat"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
@@ -271,7 +271,7 @@ class Mission
 					position[]={480.39081,0.43321794,528.42975};
 					id=14;
 					side="WEST";
-					vehicle="USMC_Soldier_SL";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -302,7 +302,7 @@ class Mission
 					position[]={478.69843,0.25157055,519.47662};
 					id=16;
 					side="WEST";
-					vehicle="USMC_Soldier_TL";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -314,7 +314,7 @@ class Mission
 					position[]={476.38202,0.24096009,515.93463};
 					id=17;
 					side="WEST";
-					vehicle="USMC_Soldier_AR";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""B1"", ""RED"", ""usmc_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
@@ -336,7 +336,7 @@ class Mission
 					position[]={487.32147,0.29108781,514.96979};
 					id=19;
 					side="WEST";
-					vehicle="USMC_Soldier_LAT";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""B1"", ""GREEN"", ""usmc_rat"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
@@ -355,7 +355,7 @@ class Mission
 					position[]={478.9162,0.33607697,506.6983};
 					id=20;
 					side="WEST";
-					vehicle="USMC_Soldier_TL";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -367,7 +367,7 @@ class Mission
 					position[]={476.59979,0.42155138,503.15533};
 					id=21;
 					side="WEST";
-					vehicle="USMC_Soldier_AR";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""B2"", ""YELLOW"", ""usmc_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
@@ -389,7 +389,7 @@ class Mission
 					position[]={487.53925,0.22876671,502.19049};
 					id=23;
 					side="WEST";
-					vehicle="USMC_Soldier_LAT";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""B2"", ""BLUE"", ""usmc_rat"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
@@ -444,7 +444,7 @@ class Mission
 					position[]={429.01776,0.15745246,429.75299};
 					id=26;
 					side="EAST";
-					vehicle="RU_Soldier_SL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -475,7 +475,7 @@ class Mission
 					position[]={430.23309,0.098500088,423.23737};
 					id=28;
 					side="EAST";
-					vehicle="RU_Soldier_TL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -487,7 +487,7 @@ class Mission
 					position[]={429.29755,0.19354683,416.05768};
 					id=29;
 					side="EAST";
-					vehicle="RU_Soldier_AR";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""A1"", ""RED"", ""ru_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
@@ -509,7 +509,7 @@ class Mission
 					position[]={440.99335,0.038784586,414.96686};
 					id=31;
 					side="EAST";
-					vehicle="RU_Soldier_LAT";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""A1"", ""GREEN"", ""ru_at"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
@@ -528,7 +528,7 @@ class Mission
 					position[]={428.94257,0.23914453,404.62799};
 					id=32;
 					side="EAST";
-					vehicle="RU_Soldier_TL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -540,7 +540,7 @@ class Mission
 					position[]={428.00702,0.138611,400.18463};
 					id=33;
 					side="EAST";
-					vehicle="RU_Soldier_AR";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""A2"", ""BLUE"", ""ru_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
@@ -562,7 +562,7 @@ class Mission
 					position[]={439.70282,0.23127115,399.09283};
 					id=35;
 					side="EAST";
-					vehicle="RU_Soldier_LAT";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""A2"", ""yellow"", ""ru_at"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
@@ -581,7 +581,7 @@ class Mission
 					position[]={469.06366,0.036211081,425.19049};
 					id=36;
 					side="EAST";
-					vehicle="RU_Soldier_SL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -612,7 +612,7 @@ class Mission
 					position[]={470.27899,0.020112082,418.67487};
 					id=38;
 					side="EAST";
-					vehicle="RU_Soldier_TL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -624,7 +624,7 @@ class Mission
 					position[]={469.34344,0.15278015,411.49518};
 					id=39;
 					side="EAST";
-					vehicle="RU_Soldier_AR";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""B1"", ""RED"", ""ru_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
@@ -646,7 +646,7 @@ class Mission
 					position[]={481.03925,0.05243288,410.40436};
 					id=41;
 					side="EAST";
-					vehicle="RU_Soldier_LAT";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""B1"", ""GREEN"", ""ru_at"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
@@ -665,7 +665,7 @@ class Mission
 					position[]={468.98846,0.23859307,400.06549};
 					id=42;
 					side="EAST";
-					vehicle="RU_Soldier_TL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -677,7 +677,7 @@ class Mission
 					position[]={468.05292,0.15320425,395.62213};
 					id=43;
 					side="EAST";
-					vehicle="RU_Soldier_AR";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""B2"", ""BLUE"", ""ru_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
@@ -699,7 +699,7 @@ class Mission
 					position[]={479.74872,0.31945401,394.53033};
 					id=45;
 					side="EAST";
-					vehicle="RU_Soldier_LAT";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""B2"", ""yellow"", ""ru_at"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
@@ -718,7 +718,7 @@ class Mission
 					position[]={500.81464,0.08242099,423.30768};
 					id=46;
 					side="EAST";
-					vehicle="RU_Soldier_MG";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -760,7 +760,7 @@ class Mission
 					position[]={500.33612,0.26109016,524.23151};
 					id=49;
 					side="WEST";
-					vehicle="USMC_Soldier_MG";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -802,7 +802,7 @@ class Mission
 					position[]={525.03528,0.34503108,423.99323};
 					id=52;
 					side="EAST";
-					vehicle="RU_Soldier_AT";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -886,7 +886,7 @@ class Mission
 					position[]={513.59875,0.23431273,524.1651};
 					id=58;
 					side="WEST";
-					vehicle="USMC_Soldier_AT";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -970,7 +970,7 @@ class Mission
 					position[]={539.71204,0.23714936,512.80963};
 					id=64;
 					side="WEST";
-					vehicle="USMC_Soldier_SL";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -982,7 +982,7 @@ class Mission
 					position[]={539.69446,0.24531938,511.55182};
 					id=65;
 					side="WEST";
-					vehicle="USMC_Soldier_SL";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""MAIN"", ""usmc_sl""] call fnc_initializeUnit;";
@@ -993,7 +993,7 @@ class Mission
 					position[]={542.12512,0.22753859,510.48737};
 					id=68;
 					side="WEST";
-					vehicle="USMC_Soldier_TL";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""MAIN"", ""usmc_tl""] call fnc_initializeUnit;";
@@ -1004,7 +1004,7 @@ class Mission
 					position[]={541.8634,0.20999065,512.40924};
 					id=66;
 					side="WEST";
-					vehicle="USMC_Soldier_TL";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""MAIN"", ""usmc_tl""] call fnc_initializeUnit;";
@@ -1015,7 +1015,7 @@ class Mission
 					position[]={542.03772,0.22307816,511.0694};
 					id=67;
 					side="WEST";
-					vehicle="USMC_Soldier_TL";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""MAIN"", ""usmc_tl""] call fnc_initializeUnit;";
@@ -1026,7 +1026,7 @@ class Mission
 					position[]={542.12512,0.23549435,509.3819};
 					id=69;
 					side="WEST";
-					vehicle="USMC_Soldier_TL";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""MAIN"", ""usmc_tl""] call fnc_initializeUnit;";
@@ -1056,7 +1056,7 @@ class Mission
 				};
 				class Item8
 				{
-					position[]={544.49622,0.20457035,509.61725};
+					position[]={544.12799,0.20565408,509.9679};
 					id=72;
 					side="WEST";
 					vehicle="USMC_Soldier_Medic";
@@ -1067,7 +1067,7 @@ class Mission
 				};
 				class Item9
 				{
-					position[]={544.57043,0.22048594,508.13776};
+					position[]={544.08588,0.21713501,509.05145};
 					id=73;
 					side="WEST";
 					vehicle="USMC_Soldier_Medic";
@@ -1081,7 +1081,7 @@ class Mission
 					position[]={545.79602,0.13936913,512.10455};
 					id=74;
 					side="WEST";
-					vehicle="USMC_Soldier_AR";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""MAIN"", ""usmc_ar""] call fnc_initializeUnit;";
@@ -1092,7 +1092,7 @@ class Mission
 					position[]={545.85413,0.15300514,511.29108};
 					id=75;
 					side="WEST";
-					vehicle="USMC_Soldier_AR";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""MAIN"", ""usmc_ar""] call fnc_initializeUnit;";
@@ -1103,7 +1103,7 @@ class Mission
 					position[]={545.8927,0.16638425,510.49518};
 					id=76;
 					side="WEST";
-					vehicle="USMC_Soldier_AR";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""MAIN"", ""usmc_ar""] call fnc_initializeUnit;";
@@ -1114,7 +1114,7 @@ class Mission
 					position[]={545.95129,0.1755363,509.89362};
 					id=77;
 					side="WEST";
-					vehicle="USMC_Soldier_AR";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""MAIN"", ""usmc_ar""] call fnc_initializeUnit;";
@@ -1169,7 +1169,7 @@ class Mission
 					position[]={549.02747,0.073485002,512.21002};
 					id=82;
 					side="WEST";
-					vehicle="USMC_Soldier_LAT";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""MAIN"", ""usmc_rat""] call fnc_initializeUnit;";
@@ -1180,7 +1180,7 @@ class Mission
 					position[]={548.94934,0.090143122,511.31744};
 					id=83;
 					side="WEST";
-					vehicle="USMC_Soldier_LAT";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""MAIN"", ""usmc_rat""] call fnc_initializeUnit;";
@@ -1191,7 +1191,7 @@ class Mission
 					position[]={548.94934,0.10788295,510.34772};
 					id=84;
 					side="WEST";
-					vehicle="USMC_Soldier_LAT";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""MAIN"", ""usmc_rat""] call fnc_initializeUnit;";
@@ -1202,7 +1202,7 @@ class Mission
 					position[]={549.08508,0.11320692,509.92096};
 					id=85;
 					side="WEST";
-					vehicle="USMC_Soldier_LAT";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""MAIN"", ""usmc_rat""] call fnc_initializeUnit;";
@@ -1213,7 +1213,7 @@ class Mission
 					position[]={550.22302,0.064729623,511.45612};
 					id=89;
 					side="WEST";
-					vehicle="USMC_Soldier_MG";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""usmc_mmg""] call fnc_initializeUnit;";
@@ -1224,7 +1224,7 @@ class Mission
 					position[]={550.22937,0.05331786,512.21783};
 					id=86;
 					side="WEST";
-					vehicle="USMC_Soldier_MG";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""usmc_mmg""] call fnc_initializeUnit;";
@@ -1279,7 +1279,7 @@ class Mission
 					position[]={554.66199,0.013939269,511.93854};
 					id=92;
 					side="WEST";
-					vehicle="USMC_Soldier_AT";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""main"", ""usmc_mat""] call fnc_initializeUnit;";
@@ -1290,7 +1290,7 @@ class Mission
 					position[]={554.7782,0.016300738,511.12311};
 					id=95;
 					side="WEST";
-					vehicle="USMC_Soldier_AT";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""main"", ""usmc_mat""] call fnc_initializeUnit;";
@@ -1398,7 +1398,7 @@ class Mission
 					position[]={558.75037,0.425125,417.64948};
 					id=102;
 					side="EAST";
-					vehicle="RU_Soldier_SL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -1410,7 +1410,7 @@ class Mission
 					position[]={559.01404,0.3925063,415.40729};
 					id=107;
 					side="EAST";
-					vehicle="RU_Soldier_SL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""MAIN"", ""ru_sl""] call fnc_initializeUnit;";
@@ -1465,7 +1465,7 @@ class Mission
 					position[]={562.61072,0.44569409,417.18854};
 					id=103;
 					side="EAST";
-					vehicle="RU_Soldier_TL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""MAIN"", ""ru_tl""] call fnc_initializeUnit;";
@@ -1476,7 +1476,7 @@ class Mission
 					position[]={562.89001,0.43054044,414.91705};
 					id=118;
 					side="EAST";
-					vehicle="RU_Soldier_TL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""MAIN"", ""ru_tl""] call fnc_initializeUnit;";
@@ -1487,7 +1487,7 @@ class Mission
 					position[]={562.84998,0.39907533,412.72467};
 					id=119;
 					side="EAST";
-					vehicle="RU_Soldier_TL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""MAIN"", ""ru_tl""] call fnc_initializeUnit;";
@@ -1498,7 +1498,7 @@ class Mission
 					position[]={562.81042,0.35488239,410.49323};
 					id=120;
 					side="EAST";
-					vehicle="RU_Soldier_TL";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""MAIN"", ""ru_tl""] call fnc_initializeUnit;";
@@ -1509,7 +1509,7 @@ class Mission
 					position[]={564.81775,0.44002202,416.90924};
 					id=104;
 					side="EAST";
-					vehicle="RU_Soldier_AR";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""ru_ar""] call fnc_initializeUnit;";
@@ -1520,7 +1520,7 @@ class Mission
 					position[]={564.96912,0.43800026,414.83307};
 					id=121;
 					side="EAST";
-					vehicle="RU_Soldier_AR";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""ru_ar""] call fnc_initializeUnit;";
@@ -1531,7 +1531,7 @@ class Mission
 					position[]={565.17224,0.42183995,412.70612};
 					id=122;
 					side="EAST";
-					vehicle="RU_Soldier_AR";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""ru_ar""] call fnc_initializeUnit;";
@@ -1542,7 +1542,7 @@ class Mission
 					position[]={565.32361,0.38054758,409.92096};
 					id=123;
 					side="EAST";
-					vehicle="RU_Soldier_AR";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""ru_ar""] call fnc_initializeUnit;";
@@ -1597,7 +1597,7 @@ class Mission
 					position[]={570.31873,0.3589614,417.23541};
 					id=106;
 					side="EAST";
-					vehicle="RU_Soldier_LAT";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""ru_at""] call fnc_initializeUnit;";
@@ -1608,7 +1608,7 @@ class Mission
 					position[]={570.22595,0.39138359,415.17487};
 					id=127;
 					side="EAST";
-					vehicle="RU_Soldier_LAT";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""ru_at""] call fnc_initializeUnit;";
@@ -1619,7 +1619,7 @@ class Mission
 					position[]={570.54041,0.40866473,412.97272};
 					id=128;
 					side="EAST";
-					vehicle="RU_Soldier_LAT";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""ru_at""] call fnc_initializeUnit;";
@@ -1630,7 +1630,7 @@ class Mission
 					position[]={570.3158,0.41677898,411.35651};
 					id=129;
 					side="EAST";
-					vehicle="RU_Soldier_LAT";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""ru_at""] call fnc_initializeUnit;";
@@ -1707,7 +1707,7 @@ class Mission
 					position[]={587.53064,0.22917312,417.77838};
 					id=111;
 					side="EAST";
-					vehicle="RU_Soldier_AT";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""main"", ""ru_mat""] call fnc_initializeUnit;";
@@ -1718,7 +1718,7 @@ class Mission
 					position[]={587.66541,0.18721557,415.62213};
 					id=133;
 					side="EAST";
-					vehicle="RU_Soldier_AT";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""JIP"", ""main"", ""ru_mat""] call fnc_initializeUnit;";
