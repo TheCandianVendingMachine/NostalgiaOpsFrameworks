@@ -1,6 +1,9 @@
 
 switch (side player) do {
 	case west: {
-		["Blufor Insertion", "island"] call st_fnc_displayText;
+		["USMC Stage", "Eastern Lithuania"] call st_fnc_displayText;
+	};
+		case east: {
+		["OP Barbera", "Eastern Lithuania"] call st_fnc_displayText;
 	};
 };
