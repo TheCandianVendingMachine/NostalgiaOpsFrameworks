@@ -27,6 +27,8 @@ ace_sys_wounds_leftdam = 0; // How much damage left when healed in the field, in
 ["ace_sys_interaction_confirmation", { ace_sys_interaction_confirmed = true; false }] call ACE_fnc_addReceiverOnlyEventhandler; // attempt to get around morphine requirement
 
 if (hasInterface) then {
+    [false] call acre_api_fnc_setSpectator;
+
     ["nos_hideObjectGlobal", {
         private ["_object", "_hidden"];
         _object = _this select 0;
