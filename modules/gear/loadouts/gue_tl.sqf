@@ -16,7 +16,6 @@ ADD_MAGAZINE("HandGrenade_West", 2);
 ADD_MAGAZINE("SmokeShell", 2);
 ADD_MAGAZINE("1Rnd_HE_GP25", 4);
 ADD_MAGAZINE("1Rnd_SMOKE_GP25", 2);
-ADD_MAGAZINE("ACE_Battery_Rangefinder", 1);
 
 /* Secondary Magazine Slots */
 ADD_MAGAZINE("6Rnd_45ACP", 4);
@@ -25,7 +24,6 @@ ADD_MAGAZINE("6Rnd_45ACP", 4);
 ADD_MAGAZINE_RUCK("1Rnd_HE_GP25", 4);
 ADD_MAGAZINE_RUCK("1Rnd_SMOKE_GP25", 2);
 ADD_MAGAZINE_RUCK("ACE_30Rnd_762x39_T_AK47", 2);
-ADD_MAGAZINE_RUCK("ACE_Battery_Rangefinder", 1);
 ADD_MAGAZINE_RUCK("SmokeShellGreen", 2);
 ADD_MAGAZINE_RUCK("ACE_Knicklicht_B", 4);
 
