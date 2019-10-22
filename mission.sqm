@@ -37,7 +37,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=26;
+		items=36;
 		class Item0
 		{
 			side="LOGIC";
@@ -109,7 +109,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={735.8313,0.26001552,620.64795};
+					position[]={382.30139,0.21106634,517.25928};
 					id=3;
 					side="CIV";
 					vehicle="Citizen1";
@@ -137,6 +137,7 @@ class Mission
 					vehicle="USMC_Soldier";
 					player="PLAYER COMMANDER";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""ASL"", ""MAIN"", ""usmc_sl"", ""hq"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha Squad Leader";
@@ -148,6 +149,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier_Medic";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""AM"", ""RED"", ""usmc_medic"", ""medic"", ""ColorRed"", 0.75, true] call fnc_initializeUnit;";
 					description="Alpha Corpsman";
@@ -168,6 +170,7 @@ class Mission
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""A1"", ""GREEN"", ""usmc_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 1 Fireteam Leader";
@@ -179,6 +182,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""A1"", ""RED"", ""usmc_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 1 Automatic Rifleman";
@@ -190,6 +194,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""A1"", ""RED"", ""usmc_aar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 1 Assistant Automatic Rifleman";
@@ -221,6 +226,7 @@ class Mission
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""A2"", ""BLUE"", ""usmc_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 2 Fireteam Leader";
@@ -232,6 +238,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""A2"", ""YELLOW"", ""usmc_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 2 Automatic Rifleman";
@@ -243,6 +250,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""A2"", ""YELLOW"", ""usmc_aar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 2 Assistant Automatic Rifleman";
@@ -274,6 +282,7 @@ class Mission
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""BSL"", ""MAIN"", ""usmc_sl"", ""hq"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo Squad Leader";
@@ -285,6 +294,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier_Medic";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""BM"", ""RED"", ""usmc_medic"", ""medic"", ""ColorBlue"", 0.75, true] call fnc_initializeUnit;";
 					description="Bravo Corpsman";
@@ -305,6 +315,7 @@ class Mission
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""B1"", ""GREEN"", ""usmc_tl"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 1 Fireteam Leader";
@@ -316,6 +327,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""B1"", ""RED"", ""usmc_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 1 Automatic Rifleman";
@@ -327,6 +339,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""B1"", ""RED"", ""usmc_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 1 Assistant Automatic Rifleman";
@@ -358,6 +371,7 @@ class Mission
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""B2"", ""BLUE"", ""usmc_tl"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 2 Fireteam Leader";
@@ -369,6 +383,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""B2"", ""YELLOW"", ""usmc_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 2 Automatic Rifleman";
@@ -380,6 +395,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""B2"", ""YELLOW"", ""usmc_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 2 Assistant Automatic Rifleman";
@@ -447,6 +463,7 @@ class Mission
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""ASL"", ""MAIN"", ""ru_sl"", ""hq"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha Squad Leader";
@@ -458,6 +475,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier_Medic";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""AM"", ""MAIN"", ""ru_medic"", ""medic"", ""ColorRed"", 0.75, true] call fnc_initializeUnit;";
 					description="Alpha Medic";
@@ -478,6 +496,7 @@ class Mission
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""A1"", ""GREEN"", ""ru_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 1 Fireteam Leader";
@@ -489,6 +508,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""A1"", ""RED"", ""ru_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 1 Automatic Rifleman";
@@ -500,6 +520,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""A1"", ""RED"", ""ru_aar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 1 Assistant Automatic Rifleman";
@@ -531,6 +552,7 @@ class Mission
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""A2"", ""yellow"", ""ru_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 2 Fireteam Leader";
@@ -542,6 +564,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""A2"", ""BLUE"", ""ru_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 2 Automatic Rifleman";
@@ -553,6 +576,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""A2"", ""blue"", ""ru_aar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
 					description="Alpha 2 Assistant Automatic Rifleman";
@@ -584,6 +608,7 @@ class Mission
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""BSL"", ""MAIN"", ""ru_sl"", ""hq"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo Squad Leader";
@@ -595,6 +620,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier_Medic";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""BM"", ""MAIN"", ""ru_medic"", ""medic"", ""ColorBlue"", 0.75, true] call fnc_initializeUnit;";
 					description="Bravo Medic";
@@ -615,6 +641,7 @@ class Mission
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""B1"", ""GREEN"", ""ru_tl"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 1 Fireteam Leader";
@@ -626,6 +653,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""B1"", ""RED"", ""ru_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 1 Automatic Rifleman";
@@ -637,6 +665,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""B1"", ""RED"", ""ru_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 1 Assistant Automatic Rifleman";
@@ -668,6 +697,7 @@ class Mission
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""B2"", ""yellow"", ""ru_tl"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 2 Fireteam Leader";
@@ -679,6 +709,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""B2"", ""BLUE"", ""ru_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 2 Automatic Rifleman";
@@ -690,6 +721,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""B2"", ""blue"", ""ru_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
 					description="Bravo 2 Assistant Automatic Rifleman";
@@ -721,6 +753,7 @@ class Mission
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""MMG1"", ""main"", ""ru_mmg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
 					description="MMG 1 Gunner";
@@ -732,6 +765,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""MMG1"", ""main"", ""ru_ammg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
 					description="MMG 1 Spotter";
@@ -763,6 +797,7 @@ class Mission
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""MMG1"", ""main"", ""usmc_mmg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
 					description="MMG 1 Gunner";
@@ -774,6 +809,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""MMG1"", ""main"", ""usmc_ammg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
 					description="MMG 1 Spotter";
@@ -805,6 +841,7 @@ class Mission
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""MAT1"", ""main"", ""ru_mat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
 					description="MAT 1 Gunner";
@@ -816,6 +853,7 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""MAT1"", ""main"", ""ru_matspot"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
 					description="MAT 1 Spotter";
@@ -847,8 +885,9 @@ class Mission
 					vehicle="RU_Soldier_Crew";
 					player="PLAY CDG";
 					leader=1;
+					rank="LIEUTENANT";
 					skill=0.60000002;
-					init="[this, ""vic 1"", ""main"", ""ru_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					init="[this, ""VIC1"", ""main"", ""ru_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
 					description="VIC 1 Commander";
 				};
 				class Item1
@@ -858,8 +897,9 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier_Crew";
 					player="PLAY CDG";
+					rank="SERGEANT";
 					skill=0.60000002;
-					init="[this, ""vic 1"", ""main"", ""ru_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					init="[this, ""VIC1"", ""main"", ""ru_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
 					description="VIC 1 Gunner";
 				};
 				class Item2
@@ -869,8 +909,9 @@ class Mission
 					side="EAST";
 					vehicle="RU_Soldier_Crew";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
-					init="[this, ""vic 1"", ""main"", ""ru_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					init="[this, ""VIC1"", ""main"", ""ru_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
 					description="VIC 1 Driver";
 				};
 			};
@@ -889,6 +930,7 @@ class Mission
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					leader=1;
+					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""MAT1"", ""main"", ""usmc_mat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
 					description="MAT 1 Gunner";
@@ -900,6 +942,7 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""MAT1"", ""main"", ""usmc_matspot"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
 					description="MAT 1 Spotter";
@@ -931,8 +974,9 @@ class Mission
 					vehicle="USMC_Soldier_Crew";
 					player="PLAY CDG";
 					leader=1;
+					rank="LIEUTENANT";
 					skill=0.60000002;
-					init="[this, ""vic1"", ""main"", ""usmc_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					init="[this, ""VIC1"", ""main"", ""usmc_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
 					description="VIC 1 Commander";
 				};
 				class Item1
@@ -942,8 +986,9 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier_Crew";
 					player="PLAY CDG";
+					rank="SERGEANT";
 					skill=0.60000002;
-					init="[this, ""vic1"", ""main"", ""usmc_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					init="[this, ""VIC1"", ""main"", ""usmc_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
 					description="VIC 1 Gunner";
 				};
 				class Item2
@@ -953,8 +998,9 @@ class Mission
 					side="WEST";
 					vehicle="USMC_Soldier_Crew";
 					player="PLAY CDG";
+					rank="CORPORAL";
 					skill=0.60000002;
-					init="[this, ""vic1"", ""main"", ""usmc_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					init="[this, ""VIC1"", ""main"", ""usmc_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
 					description="VIC 1 Driver";
 				};
 			};
@@ -1641,7 +1687,7 @@ class Mission
 					position[]={574.61951,0.30672973,414.96198};
 					id=130;
 					side="EAST";
-					vehicle="RU_Soldier_MG";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""ru_mmg""] call fnc_initializeUnit;";
@@ -1652,7 +1698,7 @@ class Mission
 					position[]={574.39539,0.2713055,417.34283};
 					id=108;
 					side="EAST";
-					vehicle="RU_Soldier_MG";
+					vehicle="RU_Soldier";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""ru_mmg""] call fnc_initializeUnit;";
@@ -1811,6 +1857,886 @@ class Mission
 					skill=0.60000002;
 					init="[this, ""jip"", ""main"", ""ru_crew""] call fnc_initializeUnit;";
 					description="JIP Crewman";
+				};
+			};
+		};
+		class Item26
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={623.09515,-43.297302,529.10431};
+					id=141;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""ASL"", ""MAIN"", ""gue_sl"", ""hq"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha Squad Leader";
+				};
+				class Item1
+				{
+					position[]={627.4165,0.3737939,525.60242};
+					id=142;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""AM"", ""RED"", ""gue_medic"", ""medic"", ""ColorRed"", 0.75, true] call fnc_initializeUnit;";
+					description="Alpha Medic";
+				};
+			};
+		};
+		class Item27
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={620.99048,0.17708081,519.4519};
+					id=143;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""A1"", ""GREEN"", ""gue_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={618.25317,0.22442774,515.12238};
+					id=144;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""A1"", ""RED"", ""gue_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={623.3584,-45.268261,514.59869};
+					id=145;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""A1"", ""RED"", ""gue_aar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={630.16541,-45.40913,514.20502};
+					id=146;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A1"", ""GREEN"", ""gue_rat"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 1 Rifleman AT";
+				};
+			};
+		};
+		class Item28
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={620.35883,0.36665016,507.14905};
+					id=147;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""A2"", ""BLUE"", ""gue_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={617.62152,0.43068913,502.81952};
+					id=148;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""A2"", ""YELLOW"", ""gue_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={622.72675,0.42144644,502.29584};
+					id=149;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""A2"", ""YELLOW"", ""gue_aar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={629.53375,0.32214338,501.90216};
+					id=150;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""A2"", ""BLUE"", ""gue_rat"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="Alpha 2 Rifleman AT";
+				};
+			};
+		};
+		class Item29
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={649.17548,0.23493788,527.41516};
+					id=151;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""BSL"", ""MAIN"", ""gue_sl"", ""hq"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo Squad Leader";
+				};
+				class Item1
+				{
+					position[]={653.49683,0.24905515,523.91327};
+					id=152;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""AM"", ""RED"", ""gue_medic"", ""medic"", ""ColorBlue"", 0.75, true] call fnc_initializeUnit;";
+					description="Bravo Medic";
+				};
+			};
+		};
+		class Item30
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={647.0708,0.36236128,517.76276};
+					id=153;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""B1"", ""GREEN"", ""gue_tl"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={644.3335,0.45458812,513.43323};
+					id=154;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""B1"", ""RED"", ""gue_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={649.43872,0.41033462,512.90955};
+					id=155;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""B1"", ""RED"", ""gue_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={656.24573,0.28831607,512.51587};
+					id=156;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B1"", ""GREEN"", ""gue_rat"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Rifleman AT";
+				};
+			};
+		};
+		class Item31
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={646.43915,0.40897512,505.4599};
+					id=157;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""B1"", ""BLUE"", ""gue_tl"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={643.70184,0.27757615,501.13037};
+					id=158;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""B1"", ""YELLOW"", ""gue_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={648.80707,0.3515811,500.60669};
+					id=159;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""B1"", ""YELLOW"", ""gue_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={655.61407,0.421671,500.21301};
+					id=160;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""B1"", ""BLUE"", ""gue_rat"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="Bravo 1 Rifleman AT";
+				};
+			};
+		};
+		class Item32
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={675.55627,-44.873234,524.05518};
+					id=161;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""MMG1"", ""main"", ""gue_mmg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MMG 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={670.39752,-45.417274,518.55835};
+					id=162;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""MMG1"", ""main"", ""gue_ammg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MMG 1 Spotter";
+				};
+				class Item2
+				{
+					position[]={682.04639,-45.594666,518.39172};
+					id=163;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""MMG1"", ""main"", ""gue_mmgab"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MMG 1 Ammo Bearer";
+				};
+			};
+		};
+		class Item33
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={698.85382,0.28049207,523.05634};
+					id=164;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""MAT1"", ""main"", ""gue_mat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MAT 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={693.69507,0.13296284,517.55951};
+					id=165;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""MAT1"", ""main"", ""gue_amat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MAT 1 Spotter";
+				};
+				class Item2
+				{
+					position[]={705.34393,0.24091506,517.39288};
+					id=166;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""MAT1"", ""main"", ""gue_matab"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="MAT 1 Ammo Bearer";
+				};
+			};
+		};
+		class Item34
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={675.85535,-46.978706,504.93073};
+					id=167;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					init="[this, ""VIC1"", ""main"", ""gue_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="VIC 1 Commander";
+				};
+				class Item1
+				{
+					position[]={671.27368,-47.413517,500.34576};
+					id=168;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""VIC1"", ""main"", ""gue_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="VIC 1 Gunner";
+				};
+				class Item2
+				{
+					position[]={680.43695,0.14770873,499.82208};
+					id=169;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""VIC1"", ""main"", ""gue_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="VIC 1 Driver";
+				};
+			};
+		};
+		class Item35
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=38;
+				class Item0
+				{
+					position[]={727.90009,0.059864283,523.51135};
+					id=170;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_sl""] call fnc_initializeUnit;";
+					description="JIP Squad Leader";
+				};
+				class Item1
+				{
+					position[]={737.99713,0.047158659,507.10327};
+					id=175;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_tl""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={726.40247,0.043714531,518.51715};
+					id=171;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN""] call fnc_initializeUnit;";
+					description="JIP Squad Leader";
+				};
+				class Item3
+				{
+					position[]={738.51202,0.032808371,513.18329};
+					id=174;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item4
+				{
+					position[]={738.71796,0.1371997,519.0564};
+					id=173;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item5
+				{
+					position[]={738.10016,0.22382352,524.51843};
+					id=172;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_tl"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="JIP Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={742.67767,0.23349553,524.79858};
+					id=176;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_medic"", ""medic"", ""ColorBlue"", 0.75, true] call fnc_initializeUnit;";
+					description="JIP Corpsman";
+				};
+				class Item7
+				{
+					position[]={742.24664,0.20097789,519.33563};
+					id=177;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_medic"", ""medic"", ""ColorBlue"", 0.75, true] call fnc_initializeUnit;";
+					description="JIP Corpsman";
+				};
+				class Item8
+				{
+					position[]={742.31848,0.071574904,512.21649};
+					id=178;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_medic"", ""medic"", ""ColorBlue"", 0.75, true] call fnc_initializeUnit;";
+					description="JIP Corpsman";
+				};
+				class Item9
+				{
+					position[]={741.88739,0.041581236,505.02777};
+					id=179;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_medic"", ""medic"", ""ColorBlue"", 0.75, true] call fnc_initializeUnit;";
+					description="JIP Corpsman";
+				};
+				class Item10
+				{
+					position[]={750.17706,0.099930339,526.3559};
+					id=180;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item11
+				{
+					position[]={750.09601,0.22511499,519.70825};
+					id=181;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item12
+				{
+					position[]={750.01501,0.22238366,512.65686};
+					id=182;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item13
+				{
+					position[]={749.69104,0.074080437,503.41461};
+					id=183;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_ar"", ""infantry"", ""ColorRed""] call fnc_initializeUnit;";
+					description="JIP Automatic Rifleman";
+				};
+				class Item14
+				{
+					position[]={757.17047,0.20216551,502.37183};
+					id=187;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item15
+				{
+					position[]={756.60345,0.27607346,509.99176};
+					id=186;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item16
+				{
+					position[]={756.92743,0.14835623,518.8266};
+					id=185;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item17
+				{
+					position[]={756.11743,0.025421955,526.60858};
+					id=184;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="JIP Assistant Automatic Rifleman";
+				};
+				class Item18
+				{
+					position[]={762.68146,0.064314179,526.37878};
+					id=188;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_rat"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item19
+				{
+					position[]={763.24847,0.067206539,518.83942};
+					id=189;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_rat"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item20
+				{
+					position[]={763.97748,0.22719634,510.81482};
+					id=190;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_rat"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item21
+				{
+					position[]={762.84344,0.30737591,502.06055};
+					id=191;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_rat"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
+					description="JIP Rifleman AT";
+				};
+				class Item22
+				{
+					position[]={767.60144,0.17130747,527.12128};
+					id=192;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_mmg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MMG Gunner";
+				};
+				class Item23
+				{
+					position[]={767.9837,0.0980189,522.27448};
+					id=193;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_mmg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MMG Gunner";
+				};
+				class Item24
+				{
+					position[]={773.35016,0.20093235,521.80206};
+					id=195;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_ammg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MMG Spotter";
+				};
+				class Item25
+				{
+					position[]={773.02612,0.25766951,526.25977};
+					id=194;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_ammg"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MMG Spotter";
+				};
+				class Item26
+				{
+					position[]={777.06079,0.26894379,521.31042};
+					id=197;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_mmgab"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MMG Ammo Bearer";
+				};
+				class Item27
+				{
+					position[]={776.65576,0.2904548,526.66077};
+					id=196;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_mmgab"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MMG Ammo Bearer";
+				};
+				class Item28
+				{
+					position[]={768.4339,0.098115087,514.30115};
+					id=198;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_mat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MAT Gunner";
+				};
+				class Item29
+				{
+					position[]={768.75787,0.21119285,508.62671};
+					id=199;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_mat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MAT Gunner";
+				};
+				class Item30
+				{
+					position[]={775.83032,0.14266463,514.64081};
+					id=200;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_amat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MAT Spotter";
+				};
+				class Item31
+				{
+					position[]={775.74933,0.14121377,508.56171};
+					id=201;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_amat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MAT Spotter";
+				};
+				class Item32
+				{
+					position[]={782.3761,0.28479505,514.96216};
+					id=202;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_matab"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MAT Ammo Bearer";
+				};
+				class Item33
+				{
+					position[]={782.70013,0.18439153,507.66724};
+					id=203;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_matab"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					description="JIP MAT Ammo Bearer";
+				};
+				class Item34
+				{
+					position[]={788.82629,0.37750912,515.79346};
+					id=207;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="JIP VIC Crewman";
+				};
+				class Item35
+				{
+					position[]={788.68262,0.34375921,519.10034};
+					id=206;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="JIP VIC Crewman";
+				};
+				class Item36
+				{
+					position[]={788.61078,0.26413509,522.98401};
+					id=205;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="JIP VIC Crewman";
+				};
+				class Item37
+				{
+					position[]={788.68262,0.17384103,526.72119};
+					id=204;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="[this, ""JIP"", ""MAIN"", ""gue_crew"", ""armor"", ""ColorYellow""] call fnc_initializeUnit;";
+					description="JIP VIC Crewman";
 				};
 			};
 		};

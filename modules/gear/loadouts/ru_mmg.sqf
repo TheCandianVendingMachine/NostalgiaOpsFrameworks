@@ -1,6 +1,6 @@
 
 /* Common USMC Gear */
-#include "usmc_common.sqf"
+#include "ru_common.sqf"
 
 /* Item Slots */
 ADD_WEAPON("ItemGPS");

@@ -1,6 +1,6 @@
 
 /* Common USMC Gear */
-#include "usmc_common.sqf"
+#include "ru_common.sqf"
 
 /* Primary Magazine Slots */
 ADD_MAGAZINE("ACE_45Rnd_545x39_B_AK", 7);
