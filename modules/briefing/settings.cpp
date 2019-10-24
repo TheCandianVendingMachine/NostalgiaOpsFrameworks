@@ -39,7 +39,7 @@ class briefings
 		east_mission = "II. Mission";
 		east_execution = "III. Execution";
 	};
-	class resistance
+	class guer
 	{
 		ind_situation = "I. Situation";
 		ind_mission = "II. Mission";
