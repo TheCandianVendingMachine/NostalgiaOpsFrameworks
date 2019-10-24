@@ -6,4 +6,7 @@ switch (side player) do {
 	case east: {
 		["OpFor Insertion", "island"] call st_fnc_displayText;
 	};
+    case resistance: {
+        ["IndFor Insertion", "island"] call st_fnc_displayText;
+    };
 };

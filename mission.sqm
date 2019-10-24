@@ -2222,7 +2222,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="[this, ""MAT1"", ""main"", ""gue_amat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					init="[this, ""MAT1"", ""main"", ""gue_matspot"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
 					description="MAT 1 Spotter";
 				};
 				class Item2
@@ -2653,7 +2653,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="[this, ""JIP"", ""MAIN"", ""gue_amat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					init="[this, ""JIP"", ""MAIN"", ""gue_matspot"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
 					description="JIP MAT Spotter";
 				};
 				class Item31
@@ -2665,7 +2665,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="[this, ""JIP"", ""MAIN"", ""gue_amat"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
+					init="[this, ""JIP"", ""MAIN"", ""gue_matspot"", ""infantry"", ""ColorOrange""] call fnc_initializeUnit;";
 					description="JIP MAT Spotter";
 				};
 				class Item32

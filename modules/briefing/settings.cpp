@@ -41,7 +41,9 @@ class briefings
 	};
 	class resistance
 	{
-		
+		ind_situation = "I. Situation";
+		ind_mission = "II. Mission";
+		ind_execution = "III. Execution";
 	};
 	class civilian
 	{
