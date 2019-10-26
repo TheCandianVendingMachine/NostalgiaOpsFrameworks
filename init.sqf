@@ -37,7 +37,7 @@ if (hasInterface) then {
     }] call CBA_fnc_addEventHandler;
 
     fnc_createGroupMarkerForPlayer = {
-        private ["_uid", "_attached", "_marker", "_currentMarkers", "_type", "_color", "_unitName", "_size"];
+        private ["_uid", "_attached", "_marker", "_currentMarkers", "_type", "_color", "_unitName", "_size", "_side"];
 
         _uid = _this select 0;
         _attached = _this select 1;
@@ -45,15 +45,16 @@ if (hasInterface) then {
         _unitName = _this select 3;
         _color = _this select 4;
         _size = _this select 5;
+        _side = _this select 6;
 
-        if ((side _attached) == (side player)) then {
+        if ((side _attached) == (side player) && (_side) == (side player)) then {
             _currentMarkers = player getVariable ["nos_currentGroupMarkers", []];
         
             _marker = createMarkerLocal [_uid, [0, 0]];
-            _marker setMarkerText _unitName;
+            _marker setMarkerTextLocal _unitName;
 
             if !(_color == "") then {
-                _marker setMarkerColor _color;
+                _marker setMarkerColorLocal _color;
             };
             
             switch (_type) do {
@@ -70,19 +71,30 @@ if (hasInterface) then {
                 default { _type = ""; };
             };
 
-            _marker setMarkerType _type;
-            _marker setMarkerPos getPosASL (if (typeName _attached == typeName objNull) then {
+            _marker setMarkerTypeLocal _type;
+            _marker setMarkerPosLocal getPosASL (if (typeName _attached == typeName objNull) then {
                 _attached;
             } else {
                 leader _attached;
             });
-            _marker setMarkerSize [_size, _size];
+            _marker setMarkerSizeLocal [_size, _size];
             
             _currentMarkers set [count _currentMarkers, [_marker, _attached]];
             
             player setVariable ["nos_currentGroupMarkers", _currentMarkers];
         };
     };
+
+    ["nos_updateMapMarkers", {
+        private ["_uid", "_position", "_side"];
+        _uid = _this select 0;
+        _position = _this select 1;
+        _side = _this select 2;
+        
+        if (_side == side player) then {
+            _uid setMarkerPosLocal _position;
+        };
+    }] call CBA_fnc_addEventHandler;
 
     ["nos_createGroupMarkerLocal", {
         _this call fnc_createGroupMarkerForPlayer;
@@ -98,21 +110,6 @@ if (hasInterface) then {
         } forEach _this;
         _paramArr call fnc_createGroupMarkerForPlayer;
     }] call CBA_fnc_addLocalEventHandler;
-    
-    [{
-        {
-            private ["_marker", "_attached"];
-            _marker = _x select 0;
-            _attached = _x select 1;
-            if !(isNil "_attached" || isNull _attached) then {
-                _marker setMarkerPos getPosASL (if (typeName _attached == typeName objNull) then {
-                    _attached;
-                } else {
-                    leader _attached;
-                });
-            };
-        } forEach (player getVariable ["nos_currentGroupMarkers", []]);
-    }, 5, []] call CBA_fnc_addPerFrameHandler;
     
     player addEventHandler ["Killed", {
         _this spawn {

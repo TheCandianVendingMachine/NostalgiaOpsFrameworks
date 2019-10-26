@@ -2111,7 +2111,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, ""B1"", ""BLUE"", ""gue_tl"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
-					description="Bravo 1 Fireteam Leader";
+					description="Bravo 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -2123,7 +2123,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""B1"", ""YELLOW"", ""gue_ar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
-					description="Bravo 1 Automatic Rifleman";
+					description="Bravo 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -2135,7 +2135,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, ""B1"", ""YELLOW"", ""gue_aar"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
-					description="Bravo 1 Assistant Automatic Rifleman";
+					description="Bravo 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -2146,7 +2146,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, ""B1"", ""BLUE"", ""gue_rat"", ""infantry"", ""ColorBlue""] call fnc_initializeUnit;";
-					description="Bravo 1 Rifleman AT";
+					description="Bravo 2 Rifleman AT";
 				};
 			};
 		};
