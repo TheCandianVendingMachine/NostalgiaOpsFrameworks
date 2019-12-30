@@ -119,7 +119,7 @@ if (hasInterface) then {
             ["nos_hideObjectGlobal", [player, true]] call CBA_fnc_globalEvent;
             [true] call acre_api_fnc_setSpectator;
             [player, _this select 1] call ace_fnc_startSpectator;
-            ace_sys_spectator_playable_only = true;
+            ace_sys_spectator_playable_only = false;
             ace_sys_spectator_can_exit_spectator = false;
             ace_sys_spectator_no_butterfly_mode = true;
             sleep 2;
