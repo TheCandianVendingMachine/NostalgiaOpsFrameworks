@@ -13,6 +13,12 @@ class Modules {
 };
 
 class Params {
+    class DACDebug {
+        title = "Enable DAC Debug";
+        values[] = {0, 1};
+        texts[] = {"Disable", "Enable"};
+        default = 0;
+    };
 	#define PARAMS
 	#include "modules\modules.cpp"
 	#undef PARAMS

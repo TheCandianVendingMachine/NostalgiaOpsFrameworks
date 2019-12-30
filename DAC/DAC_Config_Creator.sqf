@@ -16,6 +16,15 @@ if(isNil "DAC_Basic_Value") then {DAC_Basic_Value = 0};
 if(isNil "DAC_Obj_Init") then {DAC_Obj_Init = []};
 scalar = "any";DAC_Init_Camps = 0;
 
+private ["_nos_enableDacDebug", "_nos_dacMarkerEnable", "_nos_dacCommArray"];
+_nos_enableDACDebug = paramsArray select 0;
+_nos_dacMarkerEnable = 0;
+_nos_dacCommArray = [0, 1, 0];
+if (_nos_enableDACDebug == 1) then {
+    _nos_dacMarkerEnable = 1;
+    _nos_dacCommArray = [1, 2, 3];
+};
+
 //===============|
 // DAC_Settings	 |
 //===============|=============================================================================================|
@@ -27,12 +36,12 @@ scalar = "any";DAC_Init_Camps = 0;
 	if(isNil "DAC_AI_Spawn") 		then {		DAC_AI_Spawn		= [[10,5,5],[10,5,15],0,120,250,0]			};
 	if(isNil "DAC_Delete_Value") 	then {		DAC_Delete_Value	= [[120,150],[140,150],3600]				};
 	if(isNil "DAC_Del_PlayerBody") 	then {		DAC_Del_PlayerBody	= [0,0]										};
-	if(isNil "DAC_Com_Values") 		then {		DAC_Com_Values		= [0,1,0]									};
+	if(isNil "DAC_Com_Values") 		then {		DAC_Com_Values		= _nos_dacCommArray							};
 	if(isNil "DAC_AI_AddOn") 		then {		DAC_AI_AddOn		= 1											};
 	if(isNil "DAC_AI_Level") 		then {		DAC_AI_Level		= 3											};
 	if(isNil "DAC_Res_Side") 		then {		DAC_Res_Side		= 1  										};
 	if(isNil "DAC_VehAllowed") 		then {		DAC_VehAllowed 		= [0,1]										};
-	if(isNil "DAC_Marker") 			then {		DAC_Marker			= 0											};
+	if(isNil "DAC_Marker") 			then {		DAC_Marker			= _nos_dacMarkerEnable						};
 	if(isNil "DAC_WP_Speed") 		then {		DAC_WP_Speed		= 0.01										};
 	if(isNil "DAC_Join_Action")		then {		DAC_Join_Action		= false										};
 	if(isNil "DAC_Fast_Init") 		then {		DAC_Fast_Init		= false										};
