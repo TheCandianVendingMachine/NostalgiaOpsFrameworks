@@ -30,7 +30,7 @@ scalar = "any";DAC_Init_Camps = 0;
 	if(isNil "DAC_Com_Values") 		then {		DAC_Com_Values		= [0,1,0]									};
 	if(isNil "DAC_AI_AddOn") 		then {		DAC_AI_AddOn		= 1											};
 	if(isNil "DAC_AI_Level") 		then {		DAC_AI_Level		= 3											};
-	if(isNil "DAC_Res_Side") 		then {		DAC_Res_Side		= 2  										};
+	if(isNil "DAC_Res_Side") 		then {		DAC_Res_Side		= 1  										};
 	if(isNil "DAC_VehAllowed") 		then {		DAC_VehAllowed 		= [0,1]										};
 	if(isNil "DAC_Marker") 			then {		DAC_Marker			= 0											};
 	if(isNil "DAC_WP_Speed") 		then {		DAC_WP_Speed		= 0.01										};
