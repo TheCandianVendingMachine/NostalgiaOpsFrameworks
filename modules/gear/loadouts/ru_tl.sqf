@@ -6,7 +6,6 @@
 ADD_WEAPON("Binocular");
 
 /* Item Slots */ 
-ADD_WEAPON("ItemGPS");
 ADD_WEAPON("ACE_DAGR");
 
 /* Primary Magazine Slots */

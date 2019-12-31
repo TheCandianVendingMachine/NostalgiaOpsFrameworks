@@ -6,7 +6,6 @@
 ADD_WEAPON("Binocular_Vector");
 
 /* Item Slots */
-ADD_WEAPON("ItemGPS");
 ADD_WEAPON("ACE_DAGR");
 ADD_WEAPON("ACRE_PRC148");
 

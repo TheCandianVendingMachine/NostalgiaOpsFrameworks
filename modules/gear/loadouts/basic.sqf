@@ -5,8 +5,10 @@
 /* Item Slots */
 ADD_WEAPON("ItemMap");
 ADD_WEAPON("ItemWatch");
+ADD_WEAPON("ItemGPS");
 ADD_WEAPON("ItemCompass");
 ADD_WEAPON("ACRE_PRC343");
+ADD_MAGAZINE("ACE_DogTag");
 
 /* ACE Ruck Medical Slots */
 ADD_MAGAZINE_RUCK("ACE_Tourniquet", 1);

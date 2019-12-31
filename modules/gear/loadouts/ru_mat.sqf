@@ -4,7 +4,6 @@
 
 
 /* Item Slots */
-ADD_WEAPON("ItemGPS");
 ADD_WEAPON("ACRE_PRC148");
 
 /* Primary Magazine Slots */
