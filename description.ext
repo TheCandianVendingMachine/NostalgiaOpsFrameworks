@@ -46,6 +46,6 @@ class Extended_InitPost_EventHandlers {
 };
 class Extended_Killed_EventHandlers {
     class CAManBase {
-        nos_spectator_unit_killed = "systemChat 'i died in event11'; systemChat str [_this]; _this call nos_spectator_fnc_unitKilledEvent";
+        nos_spectator_unit_killed = "_this call nos_spectator_fnc_unitKilledEvent";
     };
 };

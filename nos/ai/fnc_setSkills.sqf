@@ -1,4 +1,4 @@
-#include "script_component.sqf"
+#include "script_component.hpp"
 /*
  * Author: Brandon (TCVM)
  * Sets AI unit skills according to a global value
