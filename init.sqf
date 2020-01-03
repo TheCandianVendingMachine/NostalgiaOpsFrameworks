@@ -27,15 +27,6 @@ ace_sys_wounds_leftdam = 0; // How much damage left when healed in the field, in
 ["ace_sys_interaction_confirmation", { ace_sys_interaction_confirmed = true; false }] call ACE_fnc_addReceiverOnlyEventhandler; // attempt to get around morphine requirement
 
 if (hasInterface) then {
-    [false] call acre_api_fnc_setSpectator;
-
-    ["nos_hideObjectGlobal", {
-        private ["_object", "_hidden"];
-        _object = _this select 0;
-        _hidden = _this select 1;
-        _object hideObject _hidden;
-    }] call CBA_fnc_addEventHandler;
-
     fnc_createGroupMarkerForPlayer = {
         private ["_uid", "_attached", "_marker", "_currentMarkers", "_type", "_color", "_unitName", "_size", "_side"];
 
@@ -110,22 +101,6 @@ if (hasInterface) then {
         } forEach _this;
         _paramArr call fnc_createGroupMarkerForPlayer;
     }] call CBA_fnc_addLocalEventHandler;
-    
-    player addEventHandler ["Killed", {
-        _this spawn {
-            waitUntil { alive player };
-            [player] join grpNull;
-            player allowDamage false;
-            ["nos_hideObjectGlobal", [player, true]] call CBA_fnc_globalEvent;
-            [true] call acre_api_fnc_setSpectator;
-            [player, _this select 1] call ace_fnc_startSpectator;
-            ace_sys_spectator_playable_only = false;
-            ace_sys_spectator_can_exit_spectator = false;
-            ace_sys_spectator_no_butterfly_mode = true;
-            sleep 2;
-            player setPos [0, 0, 0];
-        };
-    }];
     
     ["nos_playerInitialized", [player]] call CBA_fnc_globalEvent;
 };
