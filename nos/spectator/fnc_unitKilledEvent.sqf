@@ -17,14 +17,11 @@
  */
 PARAMS_2(_unit,_killer);
 if !(isPlayer _unit) exitWith {};
-
 [{
-    PARAMS_1(_unit);
-    alive _unit
+    alive player
 }, {
-    PARAMS_1(_unit);
-    [_unit] call FUNC(startSpectator);
-    _unit setPos [0, 0, 0];
-}, [_unit]] call nos_main_waitUntilAndExecute;
+    [player] call FUNC(startSpectator);
+    player setPos [0, 0, 0];
+}] call nos_main_fnc_waitUntilAndExecute;
 
 

@@ -17,12 +17,11 @@
 PARAMS_1(_unit);
 
 if !(isPlayer _unit) exitWith {};
-
-systemChat str _unit;
+if (!(local _unit) || (_unit != player)) exitWith {};
 
 [{
     acre_sys_core_ts3id != -1
 }, {
     [false] call acre_api_fnc_setSpectator;
-}] call nos_main_waitUntilAndExecute;
+}] call nos_main_fnc_waitUntilAndExecute;
 
