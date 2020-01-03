@@ -17,7 +17,7 @@
 
 [player] join grpNull;
 player allowDamage false;
-[EQGVAR(main,hideObject), [player, false]] call CBA_fnc_globalEvent;
+[QEGVAR(main,hideObject), [player, false]] call CBA_fnc_globalEvent;
 [true] call acre_api_fnc_setSpectator;
 [player, _this select 1] call ace_fnc_startSpectator;
 ace_sys_spectator_playable_only = false;

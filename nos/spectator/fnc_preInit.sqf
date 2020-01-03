@@ -35,6 +35,6 @@ FUNC(stopSpectator) = {
 
 FUNC(stopAcreSpectator) = {
     PARAMS_1(_unit);
-    [QGVAR(stopAcreSpectatorLocal), [_unit]] call CBA_fnc_whereLocalEvent;
+    [QGVAR(stopAcreSpectatorLocal), [_unit, _unit]] call CBA_fnc_whereLocalEvent;
 };
 

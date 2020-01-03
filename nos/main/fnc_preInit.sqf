@@ -14,7 +14,7 @@
  *
  * Public: No
  */
-  
+ 
 GVAR(onPlayerConnectEventHandlers) = [];
 GVAR(lastTickTime) = diag_tickTime;
 NOS_missionTime = 0;
@@ -22,6 +22,7 @@ GVAR(lastTime) = time;
 GVAR(waitUntilAndExecArray) = [];
 
 PREP(waitUntilAndExecute);
+PREP(getBoundedRandom);
 
 [QGVAR(hideObject), {
     PARAMS_2(_object,_hidden);
@@ -38,7 +39,7 @@ FUNC(addPlayerConnectEventHandler) = {
 
 FUNC(removePlayerConnectEventHandler) = {
     PARAMS_1(_uid);
-    if (_uid < count GVAR(onPlayerConnectEventHandlers) then {
+    if (_uid < count GVAR(onPlayerConnectEventHandlers)) then {
         GVAR(onPlayerConnectEventHandlers) set [_uid, nil];
     };
 };

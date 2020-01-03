@@ -14,6 +14,11 @@
  *
  * Public: No
  */
+PARAMS_1(_unit);
+
+if !(isPlayer _unit) exitWith {};
+
+systemChat str _unit;
 
 [{
     acre_sys_core_ts3id != -1

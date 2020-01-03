@@ -1,3 +1,3 @@
 #define COMPONENT spectator
-#include "\nos\script_main.hpp"
+#include "script_main.hpp"
 

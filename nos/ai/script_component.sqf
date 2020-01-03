@@ -1,5 +1,5 @@
 #define COMPONENT ai
-#include "\nos\script_main.hpp"
+#include "script_main.hpp"
 
 #define SUB_SKILLS [\
     ["general",         GVAR(generalMin),           GVAR(generaMaxl)],\

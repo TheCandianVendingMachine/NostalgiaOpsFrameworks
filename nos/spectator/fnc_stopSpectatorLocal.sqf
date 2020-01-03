@@ -16,7 +16,7 @@
  */
 
 player allowDamage true;
-[EQGVAR(main,hideObject), [player, false]] call CBA_fnc_globalEvent;
+[QEGVAR(main,hideObject), [player, false]] call CBA_fnc_globalEvent;
 [player] call FUNC(stopAcreSpectator);
 [player, _this select 1] call ace_fnc_startSpectator;
 ace_sys_spectator_can_exit_spectator = true;

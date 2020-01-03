@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "script_component.sqf"
 /*
  * Author: Brandon (TCVM)
  * Sets AI GVARs
@@ -14,9 +14,8 @@
  *
  * Public: No
  */
-
+ 
 PREP(setSkills);
-PREP(getBoundedRandom);
 
 GVAR(generalMin)            = 1.0;
 GVAR(generaMaxl)            = 1.0;

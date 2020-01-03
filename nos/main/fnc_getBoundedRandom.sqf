@@ -12,8 +12,8 @@
  * Random number between the min (inclusive) and the max (exclusive): <NUMBER>
  *
  * Examples:
- * [0, 1] call potato_core_fnc_getBoundedRandom; // random number between 0 and 1
- * [2, 5] call potato_core_fnc_getBoundedRandom; // random number between 2 and 5
+ * [0, 1] call nos_main_fnc_getBoundedRandom; // random number between 0 and 1
+ * [2, 5] call nos_main_fnc_getBoundedRandom; // random number between 2 and 5
  *
  * Public: Yes
  */
@@ -28,4 +28,4 @@ _random = if (_round) then {
     random (_max - _min)
 };
 
-_min + _random
+_min + _random 

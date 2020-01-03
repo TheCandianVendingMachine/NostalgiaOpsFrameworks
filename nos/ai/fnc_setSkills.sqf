@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "script_component.sqf"
 /*
  * Author: Brandon (TCVM)
  * Sets AI unit skills according to a global value
@@ -24,6 +24,6 @@ if !(local _unit) exitWith {};
     _inputMin = _x select 1;
     _inputMax = _x select 2;
     
-    _unit setSkill [_skill, [_inputMin, _inputMax] call EFUNC(core,getBoundedRandom)];
+    _unit setSkill [_skill, [_inputMin, _inputMax] call EFUNC(main,getBoundedRandom)];
 } forEach SUB_SKILLS;
 
